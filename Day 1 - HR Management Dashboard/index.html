@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/5d11b56c09.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
     <title>HR Management</title>
@@ -13,25 +17,34 @@
         <div class="tools">
           <p>TOOLS</p>
           <ul>
-            <li>Dashboard</li>
-            <li>Finances</li>
-            <li>People</li>
-            <li>Statistics</li>
-            <li>Documents</li>
+            <li><i class="fas fa-th-large"></i>Dashboard</li>
+            <li><i class="fas fa-money-check"></i>Finances</li>
+            <li class="active"><i class="fas fa-users"></i>People</li>
+            <li><i class="fas fa-chart-line"></i>Statistics</li>
+            <li><i class="fas fa-folder-open"></i>Documents</li>
           </ul>
         </div>
         <div class="tools">
           <p>OTHER</p>
           <ul>
-            <li class="chat">
-              <p>Chat</p>
-              <p>3</p>
-            </li>
-            <li>Support</li>
+            <li><i class="fas fa-comment-alt"></i>Chat <span>3</span></li>
+            <li><i class="fas fa-headset"></i>Support</li>
           </ul>
         </div>
       </div>
-      <div class="main"></div>
+      <div class="main">
+        <div class="breadcrumb">
+          <p>People <span>&gt; Design Team </span></p>
+          <h1>42 People</h1>
+          <div class="search">
+            <div class="searchbar">
+              <i class="fas fa-search"></i>
+              <input type="text" />
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
       <div class="stats"></div>
     </div>
   </body>

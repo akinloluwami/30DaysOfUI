@@ -32,14 +32,8 @@
           align-items: center;
 }
 
-.container .sidebar .tools .chat {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
+.container .sidebar i {
+  margin-right: 10px;
 }
 
 .container .sidebar h1 {
@@ -48,11 +42,31 @@
 
 .container .sidebar p {
   padding: 10px;
+  font-size: 16px;
 }
 
 .container .sidebar li {
   list-style-type: none;
-  padding: 20px;
+  margin: 7px 0;
+  padding: 15px 60px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.container .sidebar li span {
+  padding: 5px;
+  color: #1eff00;
+  background-color: rgba(0, 255, 13, 0.281);
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.container .sidebar li:hover {
+  background: #af90f2;
+  background: -webkit-gradient(linear, left top, right top, from(#af90f2), to(#00d4ff));
+  background: linear-gradient(90deg, #af90f2 0%, #00d4ff 100%);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .container .main {
@@ -76,5 +90,13 @@
       -ms-flex: 3;
           flex: 3;
   background-color: #1f1f1f;
+}
+
+.active {
+  background: #af90f2;
+  background: -webkit-gradient(linear, left top, right top, from(#af90f2), to(#00d4ff));
+  background: linear-gradient(90deg, #af90f2 0%, #00d4ff 100%);
+  border-radius: 10px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
