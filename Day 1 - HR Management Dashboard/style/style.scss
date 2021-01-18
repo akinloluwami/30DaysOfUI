@@ -57,6 +57,73 @@
     display: flex;
     flex: 5;
     background-color: #1f1f1f;
+    flex-direction: column;
+    align-items: center;
+    .breadcrumb {
+      margin: 30px 0px;
+      p {
+        color: #fff;
+        span {
+          color: #dbdbdb;
+        }
+      }
+    }
+    h1 {
+      color: #fff;
+      padding: 30px;
+    }
+    .search {
+      display: flex;
+      .searchbar {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        border-radius: 50px;
+        input {
+          background-color: transparent;
+          border-radius: 30px;
+          border: none;
+          outline: none;
+          font-size: 15px;
+          color: #fff;
+        }
+      }
+      .position {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        border-radius: 50px;
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 7px;
+        i {
+          margin-left: 10px;
+          color: #dbdbdb;
+        }
+      }
+      i {
+        color: #dbdbdb;
+        margin-right: 10px;
+      }
+      .more {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        margin-left: 7px;
+        cursor: pointer;
+        i {
+          margin-left: 10px;
+          color: #dbdbdb;
+        }
+      }
+      i {
+        color: #dbdbdb;
+        margin-right: 10px;
+      }
+    }
   }
   .stats {
     border-left: 0.01px solid #292929;
