@@ -151,6 +151,7 @@
         padding: 20px;
         height: 150px;
         width: auto;
+        cursor: pointer;
         p {
           color: #fff;
         }
@@ -203,6 +204,170 @@
     display: flex;
     flex: 3;
     background-color: #1f1f1f;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h2 {
+      color: #fff;
+    }
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0px;
+      width: 80%;
+      i {
+        color: #fff;
+        background-color: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+      }
+    }
+    h1 {
+      color: #fff;
+      margin-bottom: 5px;
+      margin-right: 240px;
+    }
+    .shape {
+      width: 220px;
+      height: 220px;
+      background: rgb(175, 144, 242);
+      background: linear-gradient(
+        90deg,
+        rgba(175, 144, 242, 0.3) 0%,
+        rgba(0, 212, 255, 0.3) 100%
+      );
+      border-radius: 40px 30px 90px 50px;
+      transform: rotate(45deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .shape0 {
+        width: 200px;
+        height: 200px;
+        background: rgb(175, 144, 242);
+        background: linear-gradient(
+          90deg,
+          rgba(175, 144, 242, 0.5) 0%,
+          rgba(0, 212, 255, 0.5) 100%
+        );
+        border-radius: 40px 30px 90px 80px;
+        transform: rotate(90deg);
+        .shape1 {
+          width: 190px;
+          height: 190px;
+          background: rgb(175, 144, 242);
+          background: linear-gradient(
+            90deg,
+            rgba(175, 144, 242, 0.8) 0%,
+            rgba(0, 212, 255, 0.8) 100%
+          );
+          border-radius: 80px 30px 40px 50px;
+          transform: rotate(-20deg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .circle-cont {
+            background-color: rgb(32, 32, 32);
+            width: 190px;
+            height: 190px;
+            transform: rotate(-25deg);
+            border-radius: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .circle {
+              background-color: rgb(32, 32, 32);
+              width: 150px;
+              height: 150px;
+              transform: rotate(-90deg);
+              border-radius: 200px;
+              border: 0.5px solid #ffffff3a;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              p {
+                color: #585858;
+              }
+              .p {
+                color: #1eff00;
+              }
+              h1 {
+                color: #fff;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .projects {
+      .row {
+        display: flex;
+        .info {
+          background-color: #1a1a1a;
+          padding: 20px;
+          border-radius: 20px;
+          margin: 10px;
+          cursor: pointer;
+          p {
+            color: #585858;
+          }
+          .num {
+            display: flex;
+            align-items: center;
+            .grad1 {
+              background: rgb(175, 144, 242);
+              background: linear-gradient(
+                90deg,
+                rgba(175, 144, 242, 1) 0%,
+                rgba(0, 212, 255, 1) 100%
+              );
+              width: 5px;
+              height: 25px;
+              margin-right: 20px;
+              border-radius: 10px;
+            }
+            .grad2 {
+              background: rgb(131, 58, 180);
+              background: linear-gradient(
+                90deg,
+                rgba(131, 58, 180, 1) 0%,
+                rgba(252, 176, 69, 1) 100%
+              );
+              width: 5px;
+              height: 25px;
+              margin-right: 20px;
+              border-radius: 10px;
+            }
+            .grad3 {
+              background: rgb(34, 193, 195);
+              background: linear-gradient(
+                0deg,
+                rgba(34, 193, 195, 1) 0%,
+                rgba(253, 187, 45, 1) 100%
+              );
+              width: 5px;
+              height: 25px;
+              margin-right: 20px;
+              border-radius: 10px;
+            }
+            .grad4 {
+              background: rgb(195, 34, 34);
+              background: linear-gradient(
+                0deg,
+                rgba(195, 34, 34, 1) 0%,
+                rgba(251, 210, 0, 1) 100%
+              );
+              width: 5px;
+              height: 25px;
+              margin-right: 20px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 .active {
