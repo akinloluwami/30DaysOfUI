@@ -175,6 +175,94 @@
   margin-right: 10px;
 }
 
+.container .team {
+  margin-top: 20px;
+}
+
+.container .team .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .team .row1 .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 20px;
+  height: 150px;
+  width: auto;
+}
+
+.container .team .row1 .profile p {
+  color: #fff;
+}
+
+.container .team .row1 .profile small {
+  color: #585858;
+}
+
+.container .team .row1 .profile .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.container .team .row1 .profile .bar p {
+  color: #585858;
+}
+
+.container .team .row1 .profile .bar i {
+  color: #585858;
+}
+
+.container .team .row1 .profile .img {
+  background-color: #292929;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.container .team .row1 .profile .progress {
+  margin: 20px auto;
+  padding: 0;
+  width: 90px;
+  height: 10px;
+  overflow: hidden;
+  background: #383838;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.container .team .row1 .profile .progress .bar {
+  height: 100%;
+  background: #af90f2;
+  background: -webkit-gradient(linear, left top, right top, from(#af90f2), to(#00d4ff));
+  background: linear-gradient(90deg, #af90f2 0%, #00d4ff 100%);
+}
+
 .container .stats {
   border-left: 0.01px solid #292929;
   height: 100vh;

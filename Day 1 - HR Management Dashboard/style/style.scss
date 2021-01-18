@@ -125,6 +125,68 @@
       }
     }
   }
+  .team {
+    margin-top: 20px;
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #1a1a1a;
+        border-radius: 20px;
+        padding: 20px;
+        height: 150px;
+        width: auto;
+        p {
+          color: #fff;
+        }
+        small {
+          color: #585858;
+        }
+        .bar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          p {
+            color: #585858;
+          }
+          i {
+            color: #585858;
+          }
+        }
+        .img {
+          background-color: #292929;
+          width: 50px;
+          height: 50px;
+          border-radius: 100px;
+        }
+        .progress {
+          margin: 20px auto;
+          padding: 0;
+          width: 90px;
+          height: 10px;
+          overflow: hidden;
+          background: #383838;
+          border-radius: 20px;
+          margin: 0 10px;
+
+          .bar {
+            height: 100%;
+            background: rgb(175, 144, 242);
+            background: linear-gradient(
+              90deg,
+              rgba(175, 144, 242, 1) 0%,
+              rgba(0, 212, 255, 1) 100%
+            );
+          }
+        }
+      }
+    }
+  }
   .stats {
     border-left: 0.01px solid #292929;
     height: 100vh;
