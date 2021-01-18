@@ -11,6 +11,7 @@
   display: -ms-flexbox;
   display: flex;
   font-family: Poppins;
+  overflow: hidden;
 }
 
 .container .sidebar {
@@ -177,18 +178,28 @@
 
 .container .team {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: auto;
 }
 
-.container .team .row1 {
+.container .team .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 10px;
 }
 
-.container .team .row1 .profile {
+.container .team .row .profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,15 +220,15 @@
   width: auto;
 }
 
-.container .team .row1 .profile p {
+.container .team .row .profile p {
   color: #fff;
 }
 
-.container .team .row1 .profile small {
+.container .team .row .profile small {
   color: #585858;
 }
 
-.container .team .row1 .profile .bar {
+.container .team .row .profile .bar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,22 +241,22 @@
   width: 100%;
 }
 
-.container .team .row1 .profile .bar p {
+.container .team .row .profile .bar p {
   color: #585858;
 }
 
-.container .team .row1 .profile .bar i {
+.container .team .row .profile .bar i {
   color: #585858;
 }
 
-.container .team .row1 .profile .img {
+.container .team .row .profile .img {
   background-color: #292929;
   width: 50px;
   height: 50px;
   border-radius: 100px;
 }
 
-.container .team .row1 .profile .progress {
+.container .team .row .profile .progress {
   margin: 20px auto;
   padding: 0;
   width: 90px;
@@ -256,7 +267,7 @@
   margin: 0 10px;
 }
 
-.container .team .row1 .profile .progress .bar {
+.container .team .row .profile .progress .bar {
   height: 100%;
   background: #af90f2;
   background: -webkit-gradient(linear, left top, right top, from(#af90f2), to(#00d4ff));
