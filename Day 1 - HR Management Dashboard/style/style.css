@@ -52,6 +52,10 @@
   padding: 15px 60px;
   font-size: 14px;
   text-align: left;
+  border-radius: 10px;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+  background-color: #3535352a;
 }
 
 .container .sidebar li span {
@@ -68,6 +72,8 @@
   background: linear-gradient(90deg, #af90f2 0%, #00d4ff 100%);
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
 }
 
 .container .main {
@@ -249,10 +255,9 @@
   color: #585858;
 }
 
-.container .team .row .profile .img {
+.container .team .row .profile img {
   background-color: #292929;
   width: 50px;
-  height: 50px;
   border-radius: 100px;
 }
 
