@@ -13,11 +13,13 @@ body {
     background-color: #282a34;
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex: 2;
+    justify-content: space-between;
+    padding: 25px 0;
     .logo {
       display: flex;
       align-items: center;
+      justify-content: center;
       i {
         color: #fff;
         margin-right: 10px;
@@ -28,13 +30,15 @@ body {
       }
     }
     .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       .ring {
         height: 110px;
         width: 110px;
         border-radius: 100px;
         background-color: transparent;
         border: 1px solid darkgoldenrod;
-        border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -48,6 +52,23 @@ body {
           border-radius: 100px;
         }
       }
+    }
+    .num {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      b {
+        color: #fff;
+        padding: 5px;
+      }
+      small {
+        color: #9b9b9b;
+      }
+    }
+    .bar {
+      width: 1px;
+      height: 30px;
+      background-color: #9b9b9b;
     }
     .username {
       display: flex;
@@ -63,6 +84,27 @@ body {
     }
     .numbers {
       display: flex;
+      padding: 20px;
+      width: 75%;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav {
+      display: flex;
+      align-items: flex-start;
+      margin-left: 25px;
+      img {
+        width: 25px;
+        margin-right: 15px;
+      }
+      ul {
+        list-style: none;
+        li {
+          display: flex;
+          align-items: center;
+          color: #fff;
+        }
+      }
     }
   }
   .main {
