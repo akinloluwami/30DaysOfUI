@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>igtvakinkunmii</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <rect class="cls-1" x="361.6" y="550.32" width="1276.81" height="1186.68" rx="340.52"/>
+      <path class="cls-1" d="M789.19,263,972.84,523.7a21.36,21.36,0,0,0,35.7-1.19L1166.61,263"/>
+      <path class="cls-1" d="M561.37,1164.06l412.9-104a41.43,41.43,0,0,1,51.14,46l-16.11,114.37c-4.28,30.42,24.87,54.76,54,45.11l368.5-121.86"/>
+    </g>
+  </g>
+</svg>

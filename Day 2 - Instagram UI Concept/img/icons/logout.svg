@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>logoutakinkunmii</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <path class="cls-1" d="M1020.64,312H480.56A144.49,144.49,0,0,0,336.08,456.48v1087A144.49,144.49,0,0,0,480.56,1688h540.08"/>
+      <line class="cls-1" x1="1653.6" y1="989.68" x2="649.12" y2="989.68"/>
+      <polyline class="cls-1" points="1319.92 690.4 1663.92 982.8 1319.92 1282.08"/>
+    </g>
+  </g>
+</svg>

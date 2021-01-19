@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>exploreakinkunmii</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <circle class="cls-1" cx="889.69" cy="894.22" r="506.22"/>
+      <line class="cls-1" x1="1246.81" y1="1243.81" x2="1616.53" y2="1612"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3c3f51;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  .sidebar {
+    background-color: #282a34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+    .logo {
+      display: flex;
+      align-items: center;
+      i {
+        color: #fff;
+        margin-right: 10px;
+        font-size: 50px;
+      }
+      img {
+        width: 150px;
+      }
+    }
+    .profile {
+      .ring {
+        height: 110px;
+        width: 110px;
+        border-radius: 100px;
+        background-color: transparent;
+        border: 1px solid darkgoldenrod;
+        border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .dp {
+          background-image: url(https://images.unsplash.com/photo-1557153984-b968e8a9cb14?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fGhlYWQlMjBzaG90fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+          height: 100px;
+          width: 100px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          border-radius: 100px;
+        }
+      }
+    }
+    .username {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      b {
+        color: #fff;
+        padding: 5px;
+      }
+      small {
+        color: #9b9b9b;
+      }
+    }
+    .numbers {
+      display: flex;
+    }
+  }
+  .main {
+    display: flex;
+    flex: 8;
+  }
+}

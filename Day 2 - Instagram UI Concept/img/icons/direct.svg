@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <title>directakinkunmii</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <polygon class="cls-1" points="369.23 915.38 1630.77 380 1098.46 1620 830.77 1176.92 369.23 915.38"/>
+      <line class="cls-1" x1="830.77" y1="1176.92" x2="1630.77" y2="380"/>
+    </g>
+  </g>
+</svg>
