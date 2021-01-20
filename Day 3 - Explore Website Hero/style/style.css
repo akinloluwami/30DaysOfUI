@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  height: 90vh;
+  background-color: transparent;
+  border: 5px solid #fff;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 7vh;
+}
+
+.container .nav i {
+  cursor: pointer;
+}
+
+.container .content {
+  height: 60vh;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  flex-direction: column;
+}
+
+.container .content h1 {
+  font-size: 90px;
+}
+
+.container .content .btn {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.226);
+  border-radius: 15px;
+  border: 0.5px solid #fff;
+}
+
+.container .content .btn button {
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0.5px solid #fff;
+  color: #ef9c47;
+  font-weight: bolder;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.container .content .btn button:hover {
+  color: #fff;
+  background-color: #ef9c47;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+@media only screen and (max-width: 900px) {
+  .container .content {
+    width: 90%;
+  }
+  .container .content h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
